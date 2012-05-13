@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # chkconfig: 345 99 01
 # description: Differ Log File Watcher
