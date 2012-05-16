@@ -32,7 +32,7 @@
 # --------------------------------------------------------------------------------------------
 
 
-PROGRAM='/var/www/logwatcher/differ.py'
+PROGRAM='/var/www/lol-logwatcher/differ.py'
 PROGNAME='differ'
 PIDFILE="/var/run/$PROGNAME.pid"
 LOGFILE="/var/log/$PROGNAME.log"
