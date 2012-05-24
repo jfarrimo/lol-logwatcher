@@ -24,6 +24,10 @@
 -- authors and should not be interpreted as representing official policies, either expressed
 -- or implied, of Lolapps, Inc.
 
+CREATE DATABASE IF NOT EXISTS differ;
+
+USE differ;
+
 CREATE TABLE `differ_errors` (
   `id` int(10) unsigned NOT NULL auto_increment,
   `timestamp` int(10) unsigned NOT NULL,
