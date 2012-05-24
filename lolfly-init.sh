@@ -5,7 +5,7 @@
 # Required-Stop:     $remote_fs $syslog
 # Default-Start:     2 3 4 5
 # Default-Stop:      0 1 6
-# Short-Description: LOL differ init.d script
+# Short-Description: LOL lolfly init.d script
 # Description:       Symlink this file to /etc/init.d
 ### END INIT INFO
 
@@ -37,9 +37,8 @@
 # or implied, of Lolapps, Inc..
 # --------------------------------------------------------------------------------------------
 
-
-PROGRAM='/var/www/lol-logwatcher/differ.py'
-PROGNAME='differ'
+PROGRAM='/var/www/lol-logwatcher/lolfly.py'
+PROGNAME='lolfly'
 PIDFILE="/var/run/$PROGNAME.pid"
 ALT_PIDFILE="/var/run/$PROGNAME.sh.pid"
 LOGFILE="/var/log/$PROGNAME.log"
